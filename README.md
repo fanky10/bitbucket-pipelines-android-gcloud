@@ -1,9 +1,7 @@
 # bitbucket-pipelines-android-gcloud
 android and gcloud that allows Firebase Test-lab integration
 
-[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) [Docker](https://www.docker.com/) image based on [image](https://hub.docker.com/_/debian)
-
-More help in Bitbucket's [Pipelines feature](https://bitbucket.org/product/features/pipelines)
+[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) [Docker](https://www.docker.com/) image based on [debian](https://hub.docker.com/_/debian)
 
 Docker image at [fanky10/bitbucket-pipelines-android-gcloud](https://hub.docker.com/r/fanky10/bitbucket-pipelines-android-gcloud) (no `CMD` as it is overriden by *Pipelines*)
 
@@ -11,6 +9,9 @@ Docker image at [fanky10/bitbucket-pipelines-android-gcloud](https://hub.docker.
  - [Google Cloud SDK](https://cloud.google.com/sdk/docs/)
  - [Open JDK 11](https://openjdk.java.net/projects/jdk/11/)
  - [Android SDK](https://developer.android.com/studio#command-tools)
+
+## Available env variables:
+ - $ANDROID_SDK_ROOT
 
 ## Sample `bitbucket-pipelines.yml`
 
