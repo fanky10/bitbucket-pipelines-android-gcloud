@@ -28,7 +28,7 @@ pipelines:
     - step:
         script:
           - echo ${GOOGLE_CLIENT_SECRET} > client-secret.json
-          - gcloud auth activate-service-account --key-file {client-secret.json}
+          - gcloud auth activate-service-account --key-file client-secret.json
           - gcloud config set project $CLOUDSDK_CORE_PROJECT
           - gcloud {custom_params}
 ```
