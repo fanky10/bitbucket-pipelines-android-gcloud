@@ -29,6 +29,13 @@ pipelines:
 
 ## Changelog
 
+### 1.1
+
+- Updates Image base to latest debian (which is, at the time of this writing, debian:buster)
+- Adds support to Java 11
+- Upgrades Google Cloud SDK to 384.0.1
+
+
 ### 1.0
 
  - Initial release
